@@ -1,23 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form Exercise</title>
 </head>
+
 <body>
     <!-- Recreate registration form-->
 
     <h1>Register</h1>
 
-    <form>
-        <label></label>
-        <input type = "text">
-        <label></label>
-        <input type = "text">
-        
+    <form action="user.html" method="GET">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" value="username" required>
+        <label for="lastname">Last Name:</label required>
+        <input type="text" id="lastname">
+
+        <div>
+            <label for="male" id="male">Male</label>
+            <input name="gender" value="male" type="radio">
+            <label for="female" id="female">Female</label>
+            <input name="gender" value="female" type="radio">
+            <label for="other" id="other">Other</label>
+            <input name="gender" value="other" type="radio">
+        </div>
+
+        <div>
+            <label for="email" id="email">Email:</label>
+            <input name="email" type="email" placeholder="email" required>
+            <label for="password" id="password">Password:</label>
+            <input name="password" type="password" required>
+        </div>
+
+        <div>
+            <label>Birthday
+                <select name = "month">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                </select>
+                <select name = "day">
+                    <option>Day</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <select name = "year">
+                    <option>Year</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label for = "agreed">I agree to the terms and conditions:</label>
+            <input id = "agreed" name = "agreed" type = "checkbox">
+        </div>
+
+        <input type="submit">
     </form>
-    
+
 </body>
+
 </html>
