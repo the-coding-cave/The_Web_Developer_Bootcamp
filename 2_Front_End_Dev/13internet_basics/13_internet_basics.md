@@ -9,6 +9,15 @@
 * Concept: request & response. 
 
 
+*Links*
+[MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+
+https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g
+
+
+
+
+
 
 
 
