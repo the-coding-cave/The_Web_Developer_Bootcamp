@@ -14,7 +14,7 @@ Attributes provide additional information about HTML elements.
 * Attributes are always specified in the start tag
 * Attributes usually come in name/value pairs like: name="value"
 
-EX: 
-
-Anchor tag with href attribute
+For example: Anchor tag with href attribute
 < a href = "url"> Link Text </ a>
+
+The href attribute specifies the URL of the page the link goes to. If the href attribute is not present, the tag is not a hyperlink. href stands for Hypertext REFerence. It is the attribute of the html which gives the URL of the page the link goes to. 
