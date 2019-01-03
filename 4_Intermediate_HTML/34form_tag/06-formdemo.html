@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo</title>
+</head>
+
+<body>
+
+    <h1>Login Form</h1>
+    <!--Form: essentially a container for inputs-->
+    <!-- Action: Where the form sends data to-->
+    <!-- Method: What HTTP method (get or post)-->
+    <form action = "redirect.html" method = "GET">
+        <input name = "username"type="text" placeholder="username">
+        <input name = "password"type="password" placeholder="password">
+        <input type="submit">
+    </form>
+
+    <!-- Notes: 
+        * If you don't specify an action, the page refreshes, 
+          The data is not being submitted else where. It sends a 
+          request plus data to the current page
+        * So we could redirect and send data to another html doc. 
+          Later we will be sending data to our own servers/backend
+        * To summarize, when we type data into a form, and click submit, 
+          the data is taken out of the form and the request is sent
+          somewhere. 
+        * Note the url and the query once you hit submit. You can 
+          see the data-->
+        
+
+</body>
+
+</html>
