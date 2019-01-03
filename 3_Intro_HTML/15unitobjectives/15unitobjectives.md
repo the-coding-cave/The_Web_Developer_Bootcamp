@@ -9,3 +9,5 @@
 * Objective 3: Recreate a simple website based on a provided photo
 
 [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
