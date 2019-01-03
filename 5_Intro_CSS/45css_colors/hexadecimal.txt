@@ -1,0 +1,23 @@
+DECIMAL - Base 10
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+largest 3 digit # - 999
+smallest 3 digit # - 001
+
+
+BINARY - Base 2
+0, 1
+
+largest 3 digit # - 111 -- not the same as one hundred and eleven
+
+HEXADECIMAL - Base 16
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+largest 3 digit hexadecimal - FFF
+smallest 3 digit " "        - 000
+
+# _ _ _ _ _ _ 
+
+first 2 #s - how much red in the color
+next 2 #s - how much green in the color
+last 2 #s - how much blue in the color
