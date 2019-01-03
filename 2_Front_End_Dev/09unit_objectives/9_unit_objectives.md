@@ -8,5 +8,4 @@
  
 * Objective 3: Define roles of HTML, CSS, and JavaScript. Discuss the similarities and differences of these front end specific technologies. Disect their roles and how they fit with all the other pieces. 
 
-[MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 
