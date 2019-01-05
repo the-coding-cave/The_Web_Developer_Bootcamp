@@ -7,9 +7,37 @@
 /* ID Selector */
 
 /* Star Selector */
+/* Selects every single element */
+* {
+    border: 1px solid lightgray;
+}
 
 /* Descendant Selector */
+/* Select an element that is a descendant of another element
+   Ex: select and apply a style to only the 
+   anchor tag that are inside an li (anchor tags that are descendants
+   of an li) ...  */
+li a {
+  color:lightseagreen;
+}
 
 /* Adjacent Selector */
+/* Select an element that comes after another element (Sibling of the element, directly below the element)
+   Ex: select and apply a style to all uls that come after an h4*/
+h4 + ul {
+    border: 4px solid lightskyblue;
+}
 
 /* Attribute Selector */
+/* Select elements based on any attribute 
+Ex: select and apply a style to hrefs that are links to google*/
+
+a[href="https://www.google.com"]{
+    background:lightgrey;
+}
+
+/* 
+input [type = "checkbox"]{
+    color:yellow;
+} */
+
