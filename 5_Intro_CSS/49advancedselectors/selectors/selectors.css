@@ -1,16 +1,20 @@
 
 
 /* Element Selector */
+/* ================================================================*/
 
 /* Class Selector*/
+/* ================================================================*/
 
 /* ID Selector */
+/* ================================================================*/
 
 /* Star Selector */
 /* Selects every single element */
 * {
     border: 1px solid lightgray;
 }
+/* ================================================================*/
 
 /* Descendant Selector */
 /* Select an element that is a descendant of another element
@@ -18,15 +22,18 @@
    anchor tag that are inside an li (anchor tags that are descendants
    of an li) ...  */
 li a {
-  color:lightseagreen;
+  color:goldenrod;
 }
+/* ================================================================*/
 
 /* Adjacent Selector */
 /* Select an element that comes after another element (Sibling of the element, directly below the element)
    Ex: select and apply a style to all uls that come after an h4*/
 h4 + ul {
-    border: 4px solid lightskyblue;
+    border: 4px solid darkblue;
+    font-size: 20px;
 }
+/* ================================================================*/
 
 /* Attribute Selector */
 /* Select elements based on any attribute 
@@ -36,8 +43,28 @@ a[href="https://www.google.com"]{
     background:lightgrey;
 }
 
-/* 
+/*  You could also clarify which input you wish to select by using the attribute selector.
+Here, the style  will not apply to all input, just the inputs that are checkboxes.
 input [type = "checkbox"]{
     color:yellow;
 } */
+
+/* ================================================================*/
+
+/* nth of type*/
+ul:nth-of-type(3){
+   background:lightskyblue;
+}
+
+li:nth-of-type(3){
+    background:lightslategray;
+ }
+
+/*
+ li:nth-of-type(even){
+    background: lightgreen;
+ }
+
+ */
+ 
 
