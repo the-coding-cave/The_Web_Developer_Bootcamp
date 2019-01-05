@@ -1,0 +1,27 @@
+
+body{
+   /* background:lightpink;*/
+   background: url(https://images.homedepot-static.com/productImages/9d0ea204-622d-4bf2-b45a-96f84b2707cc/svn/wallpaper-r4666-218043-ess-64_1000.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+h1{
+    color: #FF0000;
+    /* border-color: purple;
+    border-width:4px;
+    border-style: solid;*/
+    border: purple 4px solid;
+}
+
+h5{
+    background:rgb(255, 100, 50);
+}
+
+li{
+    color: rgba(11, 99, 150, .2);
+}
+
+
+/* color pickers */
+
