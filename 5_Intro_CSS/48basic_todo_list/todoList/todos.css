@@ -1,0 +1,15 @@
+body{
+    background: lightblue;
+}
+
+li{
+    border:2px solid darkslateblue;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+#last_task{
+  background: palegoldenrod;
+}
