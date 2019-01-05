@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Specificity</title>
+    <style type = "text/css">
+
+        body{
+            color:red;
+        }
+
+        p{
+            color:green;
+        }
+         ul{
+             color:blue;
+         }
+
+         li{
+             color:orange;
+         }
+
+         .highlight{
+             color:yellow;
+         }
+
+         #first{
+             color:pink;
+         }
+    </style>
+</head>
+<body>
+
+     <p>Hello!!!</p>
+
+    <ul>
+        <li id = "first" class = "highlight">John</li>
+        <li class = "highlight">Paul</li>
+        <li>George</li>
+        <li>Ringo</li>
+    </ul>
+
+   
+    <hr>
+   <div>
+        <a href = "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Specificity</a>
+   </div> 
+
+   <div>
+        <a href = "https://specificity.keegan.st/">Specificity Calculator</a>
+   </div>
+
+    
+</body>
+</html>
