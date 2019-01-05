@@ -1,0 +1,51 @@
+
+/* font-famil y*/
+p{
+    font-family: Arial;
+}
+
+h1{
+    font-family:'Rajdhani', sans-serif;
+}
+
+/* font-size */
+body{
+    font-size:10px;
+}
+
+h1{
+    font-size:5.0em;
+}
+
+p{
+    font-size:2.0em;
+    font-family: 'Great Vibes', cursive;
+}
+
+span{
+    /* em is dynamic and relative to parent */
+    font-size: 2.0em;
+}
+
+/* font-weight */
+p{
+    font-weight:bold;
+    /* font-weight: 100; */
+    /* font-weight: normal */
+}
+
+/* line-height */
+p{
+    line-height:3;
+    /* line-height: 1.4*/
+}
+
+/* text - align */
+h1{
+    text-align: center;
+}
+
+/* text - decoration */
+span {
+    text-decoration:underline;
+}
