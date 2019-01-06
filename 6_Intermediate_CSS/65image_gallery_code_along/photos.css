@@ -1,0 +1,26 @@
+
+/* 
+30% [images] 
+30 times 3 = 90. 10% left.
+ Margin -> (6) -> each side of the photo 
+10 divided by 6 = 1.66 on either side
+1.66 times 2 plus 30 % = 33.3% for each image including margin. 
+Each take up one third
+*/
+img {
+    width:30%;
+    margin:1.66%;
+    float:left;
+
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.66%;
+    padding-bottom:20px;
+    font-size:23px;
+    font-weight:800;
+    text-transform:uppercase;
+    border-bottom:3px solid #f1f1f1;
+    width:30%;
+}
