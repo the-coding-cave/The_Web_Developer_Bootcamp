@@ -5,7 +5,7 @@ var input = prompt("What would you like to do?");
 while(input !== "quit"){
 	//handle input
 	if(input === "list") {
-		printList();
+		listTodos();
 	} else if(input === "new") {
 		addTodo();
 	} else if(input === "delete") {
@@ -16,7 +16,7 @@ while(input !== "quit"){
 }
 console.log("OK, YOU QUIT THE APP");
 
-function printList() {
+function listTodos() {
 	console.log("**********");
 	todos.forEach(function(todo, index){
 		console.log(index + ": " + todo);
